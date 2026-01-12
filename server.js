@@ -148,6 +148,7 @@ app.get('/api/lol-leaderboard', async (req, res) => {
   
   const players = [
     { username: 'Monoceros', tag: 'atlas', region: 'na1' },
+    { username: 'Arcane272263', tag: 'NA1', region: 'na1'},
     { username: 'ashwu', tag: '0321', region: 'na1' },
     { username: 'noa6', tag: '6367', region: 'na1' },
     { username: 'nicc', tag: '1004',  region: 'na1' },
@@ -156,6 +157,10 @@ app.get('/api/lol-leaderboard', async (req, res) => {
     { username: 'testosteronepump', tag: '999',  region: 'na1' },
     { username: 'albertkanggg', tag: 'NA1',  region: 'na1' },
     { username: 'masheep', tag: 'baaa',  region: 'na1' },
+    { username: 'oeleel', tag: '000', region: 'na1'},
+    { username: 'Elysian_Sonata', tag: 'NA1', region: 'na1'},
+    { username: 'bird', tag: 'biird', region: 'na1'},
+    { username: '6ird', tag: 'NA1', region: 'na1'}
   ];
   
   const leaderboardData = [];
